@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/luismanzanero/Projects/EcoCrypt/webApi/build/logs/info/.f05922cc5b39f1fcfd6beddcefbd100ab7c632ea-audit.json",
+    "files": [
+        {
+            "date": 1617261137006,
+            "name": "/Users/luismanzanero/Projects/EcoCrypt/webApi/build/logs/info/2021-04-01.log",
+            "hash": "ae7967e2ca600438096e25940cfdeab2"
+        },
+        {
+            "date": 1617293996859,
+            "name": "/Users/luismanzanero/Projects/EcoCrypt/webApi/build/logs/info/2021-04-02.log",
+            "hash": "5ef353a182306a79d162f369a99e7fec"
+        }
+    ]
+}
