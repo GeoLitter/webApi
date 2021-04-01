@@ -37,3 +37,11 @@
 2021-04-02 01:00:13 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
 2021-04-02 01:00:28 info: 🚀 App listening on the port 3000
 2021-04-02 01:00:30 info: 🟢 The database is connected.
+2021-04-02 01:16:08 info: 🚀 App listening on the port 3000
+2021-04-02 01:16:09 info: 🟢 The database is connected.
+2021-04-02 01:16:40 info: 🚀 App listening on the port 3000
+2021-04-02 01:16:41 info: 🟢 The database is connected.
+2021-04-02 01:18:34 info: 🚀 App listening on the port 3000
+2021-04-02 01:18:36 info: 🟢 The database is connected.
+2021-04-02 01:19:54 info: 🚀 App listening on the port 3000
+2021-04-02 01:19:55 info: 🟢 The database is connected.
