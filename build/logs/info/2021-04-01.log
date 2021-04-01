@@ -1,3 +1,0 @@
-2021-04-01 15:12:17 info: 🚀 App listening on the port 3000
-2021-04-01 15:12:26 info: ::1 - - [01/Apr/2021:07:12:26 +0000] "GET / HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
-2021-04-01 15:12:47 error: 🔴 Unable to connect to the database: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017.
