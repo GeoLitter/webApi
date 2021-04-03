@@ -4,5 +4,7 @@
 /build
 /.build
 ./build
+src/logs
+./src/logs
 /.vscode 
 
