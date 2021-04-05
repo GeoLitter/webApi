@@ -41,6 +41,7 @@ class AuthService {
   public async logout(userData: User): Promise<User> {
     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
 
+    //todo: delete refresh token from database
     const findUser: User = await this.users.findOne({ password: userData.password });
     if (!findUser) throw new HttpException(409, "You're not user");
 

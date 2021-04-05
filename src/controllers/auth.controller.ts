@@ -30,7 +30,7 @@ class AuthController {
     }
   };
 
-  public logOut = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+  public logOut = async (req: RequestWithUser, res: Response, next: NextFunction) => { 
     const userData: User = req.user;
 
     try {
