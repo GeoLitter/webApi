@@ -10,6 +10,10 @@ export interface TokenData {
   expiresIn: number;
 }
 
+export interface RefreshToken {
+  token: string
+}
+
 export interface RequestWithUser extends Request {
   user: User;
 }

@@ -4,6 +4,8 @@
 /build
 /.build
 ./build
+src/logs
+./src/logs
 /.vscode 
 /Users/luismanzanero/Projects/EcoCrypt/webApi/src/logs
 
