@@ -22,7 +22,7 @@ class AuthService {
     return createUserData;
   }
 
-  public async login(userData: CreateUserDto): Promise<{ cookie: string; findUser: User, tokenData: TokenData, refreshToken: RefreshToken}> {
+  public async login(userData: CreateUserDto): Promise<{ cookie: string, findUser: User, tokenData: TokenData, refreshToken: RefreshToken}> {
     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
 
     const findUser: User = await this.users.findOne({ email: userData.email });
@@ -48,17 +48,27 @@ class AuthService {
     return findUser;
   }
 
+  public async refreshToken(refreshToken) {
+    const secret: string = process.env.REFRESH_TOKEN; 
+    const data = jwt.verify(refreshToken, secret, (error, user ) => { 
+        if(error) throw new HttpException(401, "Not a valid refreshToken");
+       return this.createToken(user);
+    }); 
+
+    return data;
+  }
+
   public createToken(user: User): TokenData {
     const dataStoredInToken: DataStoredInToken = { _id: user._id };
     const secret: string = process.env.JWT_SECRET;
-    const expiresIn: number = 60 * 60;
+    const expiresIn: number = 30;
 
     return { expiresIn, token: jwt.sign(dataStoredInToken, secret, { expiresIn }) };
   }
 
   public createRefreshToken(user: User): RefreshToken {
     const dataStoredInToken: DataStoredInToken = { _id: user._id };
-    const secret: string = process.env.JWT_SECRET; 
+    const secret: string = process.env.REFRESH_TOKEN; 
     return { token: jwt.sign(dataStoredInToken, secret) };
   }
 

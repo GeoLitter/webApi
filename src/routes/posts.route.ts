@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import PostsController from '../controllers/posts.controller'; 
 import Route from '../interfaces/routes.interface'; 
+import authMiddleware from '../middlewares/auth.middleware';
 
 class PostsRoute implements Route {
   public path = '/posts';
@@ -12,7 +13,7 @@ class PostsRoute implements Route {
   }
 
   private initializeRoutes() {
-    this.router.get(`${this.path}`, this.postsController.getPosts);
+    this.router.get(`${this.path}`, authMiddleware, this.postsController.getPosts);
     // this.router.get(`${this.path}/:id`, this.postsController.getUserById);
     // this.router.post(`${this.path}`, validationMiddleware(CreateUserDto, 'body'), this.postsController.createUser);
     // this.router.put(`${this.path}/:id`, validationMiddleware(CreateUserDto, 'body', true), this.postsController.updateUser);
