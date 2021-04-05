@@ -16,6 +16,7 @@ describe('Testing AuthController', () => {
   describe('POST /signup', () => {
     it('response should have the Create userData', () => {
       const userData: CreateUserDto = {
+        name: 'username',
         email: 'test@email.com',
         password: 'q1w2e3r4!',
       };
@@ -36,6 +37,7 @@ describe('Testing AuthController', () => {
   describe('POST /login', () => {
     it('response should have the Set-Cookie header with the Authorization token', async () => {
       const userData: CreateUserDto = {
+        name: "username",
         email: 'test@email.com',
         password: 'q1w2e3r4!',
       };
@@ -46,7 +48,7 @@ describe('Testing AuthController', () => {
       authRoute.authController.authService.users.findOne = jest.fn().mockReturnValue(
         Promise.resolve({
           _id: 0,
-          email: 'test@email.com',
+          email: 'test1@email.com',
           password: await bcrypt.hash(userData.password, 10),
         }),
       );
@@ -90,7 +92,8 @@ describe('Testing AuthService', () => {
     describe('if the email is already token', () => {
       it('should throw an error', async () => {
         const userData: CreateUserDto = {
-          email: 'test@email.com',
+          name: 'username',
+          email: 'test1@email.com',
           password: 'q1w2e3r4!',
         };
 
@@ -105,6 +108,7 @@ describe('Testing AuthService', () => {
     describe('if the email is not token', () => {
       it('should not throw an error', async () => {
         const userData: CreateUserDto = {
+          name: 'username',
           email: 'test@email.com',
           password: 'q1w2e3r4!',
         };
