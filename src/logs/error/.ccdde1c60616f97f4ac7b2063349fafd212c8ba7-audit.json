@@ -11,11 +11,6 @@
             "hash": "bf19f8573c8731a2ea57e179788103dc"
         },
         {
-<<<<<<< HEAD
-            "date": 1617645638628,
-            "name": "/Users/luismanzanero/Projects/EcoCrypt/webApi/src/logs/error/2021-04-06.error.log",
-            "hash": "d8628846cb0ca3c1ef45f50862e273f7"
-=======
             "date": 1617469687448,
             "name": "/Users/luismanzanero/Projects/EcoCrypt/webApi/src/logs/error/2021-04-04.error.log",
             "hash": "82e2e4aecee3faa76f15e6bdc134bd6f"
@@ -29,7 +24,6 @@
             "date": 1617638443623,
             "name": "/Users/luismanzanero/Projects/EcoCrypt/webApi/src/logs/error/2021-04-06.error.log",
             "hash": "29c44c677980fb0f85c53df63cd1c832"
->>>>>>> staging
         }
     ]
 }
