@@ -1,0 +1,11 @@
+2021-04-04 01:11:53 error: 🔴 Unable to connect to the database: MongoError: bad auth : Authentication failed..
+2021-04-04 01:59:15 error: StatusCode : 409, Message : You're not user
+2021-04-04 02:01:41 error: StatusCode : 400, Message : email must be an email
+2021-04-04 02:01:42 error: StatusCode : 400, Message : email must be an email
+2021-04-04 02:07:02 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
+2021-04-04 14:35:03 error: StatusCode : 409, Message : You're email lmanzanero@encrypto.com not found
+2021-04-04 14:35:09 error: StatusCode : 409, Message : You're email lmanzanero@encrypto.com not found
+2021-04-04 14:36:13 error: StatusCode : 409, Message : You're password not matching
+2021-04-04 14:36:22 error: StatusCode : 409, Message : You're password not matching
+2021-04-04 14:36:26 error: StatusCode : 409, Message : You're password not matching
+2021-04-04 14:36:29 error: StatusCode : 409, Message : You're password not matching

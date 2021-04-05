@@ -1,0 +1,543 @@
+2021-04-06 00:03:40 info: 🚀 App listening on the port 3000
+2021-04-06 00:03:42 info: 🟢 The database is connected.
+2021-04-06 00:13:09 info: 🚀 App listening on the port 3000
+2021-04-06 00:13:12 info: 🟢 The database is connected.
+2021-04-06 00:20:27 info: 🚀 App listening on the port 3000
+2021-04-06 00:20:29 info: 🟢 The database is connected.
+2021-04-06 00:20:35 info: [0mPOST /token [0m-[0m - ms - -[0m
+2021-04-06 00:23:04 info: 🚀 App listening on the port 3000
+2021-04-06 00:23:06 info: 🟢 The database is connected.
+2021-04-06 00:23:09 info: [0mPOST /token [0m-[0m - ms - -[0m
+2021-04-06 00:23:24 info: 🚀 App listening on the port 3000
+2021-04-06 00:23:26 info: 🟢 The database is connected.
+2021-04-06 00:24:06 info: 🚀 App listening on the port 3000
+2021-04-06 00:24:08 info: 🟢 The database is connected.
+2021-04-06 00:24:13 info: 🚀 App listening on the port 3000
+2021-04-06 00:24:15 info: 🟢 The database is connected.
+2021-04-06 00:24:20 info: [0mPOST /login [32m200[0m 417.451 ms - 611[0m
+2021-04-06 00:24:25 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:24:25 info: [0mPOST /token [33m401[0m 217.421 ms - 38[0m
+2021-04-06 00:25:04 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:04 info: [0mPOST /token [33m401[0m 1.168 ms - 40[0m
+2021-04-06 00:25:24 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:24 info: [0mPOST /token [33m401[0m 0.824 ms - 40[0m
+2021-04-06 00:25:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:25 info: [0mPOST /token [33m401[0m 1.040 ms - 40[0m
+2021-04-06 00:25:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:26 info: [0mPOST /token [33m401[0m 0.780 ms - 40[0m
+2021-04-06 00:25:39 info: [0mPOST /login [32m200[0m 334.190 ms - 611[0m
+2021-04-06 00:25:59 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:59 info: [0mPOST /token [33m401[0m 0.918 ms - 40[0m
+2021-04-06 00:26:01 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:26:01 info: [0mPOST /token [33m401[0m 1.403 ms - 40[0m
+2021-04-06 00:26:23 info: 🚀 App listening on the port 3000
+2021-04-06 00:26:25 info: 🟢 The database is connected.
+2021-04-06 00:26:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:26:26 info: [0mPOST /token [33m401[0m 18.483 ms - 40[0m
+2021-04-06 00:27:11 info: 🚀 App listening on the port 3000
+2021-04-06 00:27:13 info: 🟢 The database is connected.
+2021-04-06 00:27:17 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:27:17 info: [0mPOST /token [33m401[0m 20.812 ms - 40[0m
+2021-04-06 00:27:23 info: [0mPOST /login [32m200[0m 306.234 ms - 611[0m
+2021-04-06 00:27:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:27:37 info: [0mPOST /logout [33m401[0m 1.615 ms - 40[0m
+2021-04-06 00:27:40 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:27:40 info: [0mPOST /logout [33m401[0m 1.162 ms - 40[0m
+2021-04-06 00:27:46 info: [0mPOST /logout [32m200[0m 553.658 ms - 225[0m
+2021-04-06 00:27:56 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:27:56 info: [0mPOST /token [33m401[0m 0.853 ms - 40[0m
+2021-04-06 00:28:02 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:28:02 info: [0mPOST /token [33m401[0m 0.808 ms - 40[0m
+2021-04-06 00:28:19 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:28:19 info: [0mPOST /token [33m401[0m 1.047 ms - 40[0m
+2021-04-06 00:32:06 info: 🚀 App listening on the port 3000
+2021-04-06 00:32:08 info: 🟢 The database is connected.
+2021-04-06 00:33:17 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:17 info: [0mPOST /logout [33m401[0m 18.946 ms - 40[0m
+2021-04-06 00:33:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:21 info: [0mPOST /logout [33m401[0m 1.194 ms - 40[0m
+2021-04-06 00:33:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:22 info: [0mPOST /logout [33m401[0m 0.782 ms - 40[0m
+2021-04-06 00:33:23 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:23 info: [0mPOST /logout [33m401[0m 1.007 ms - 40[0m
+2021-04-06 00:33:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:26 info: [0mPOST /token [33m401[0m 2.658 ms - 40[0m
+2021-04-06 00:33:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:27 info: [0mPOST /token [33m401[0m 0.798 ms - 40[0m
+2021-04-06 00:33:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:27 info: [0mPOST /token [33m401[0m 1.140 ms - 40[0m
+2021-04-06 00:33:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:28 info: [0mPOST /token [33m401[0m 0.757 ms - 40[0m
+2021-04-06 00:33:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:28 info: [0mPOST /token [33m401[0m 0.796 ms - 40[0m
+2021-04-06 00:33:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:28 info: [0mPOST /token [33m401[0m 0.800 ms - 40[0m
+2021-04-06 00:34:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:34:20 info: [0mPOST /token [33m401[0m 0.705 ms - 40[0m
+2021-04-06 00:34:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:34:21 info: [0mPOST /token [33m401[0m 0.759 ms - 40[0m
+2021-04-06 00:39:30 info: 🚀 App listening on the port 3000
+2021-04-06 00:39:32 info: 🟢 The database is connected.
+2021-04-06 00:39:39 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:39:39 info: [0mPOST /token [33m401[0m 16.471 ms - 40[0m
+2021-04-06 00:39:40 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:39:40 info: [0mPOST /token [33m401[0m 1.915 ms - 40[0m
+2021-04-06 00:39:41 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:39:41 info: [0mPOST /token [33m401[0m 0.891 ms - 40[0m
+2021-04-06 00:42:16 info: 🚀 App listening on the port 3000
+2021-04-06 00:42:18 info: 🟢 The database is connected.
+2021-04-06 00:42:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:20 info: [0mPOST /token [33m401[0m 18.027 ms - 40[0m
+2021-04-06 00:42:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:21 info: [0mPOST /token [33m401[0m 1.171 ms - 40[0m
+2021-04-06 00:42:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:21 info: [0mPOST /token [33m401[0m 0.881 ms - 40[0m
+2021-04-06 00:42:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:21 info: [0mPOST /token [33m401[0m 1.118 ms - 40[0m
+2021-04-06 00:42:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:22 info: [0mPOST /token [33m401[0m 0.743 ms - 40[0m
+2021-04-06 00:42:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:22 info: [0mPOST /token [33m401[0m 0.753 ms - 40[0m
+2021-04-06 00:42:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:22 info: [0mPOST /token [33m401[0m 0.930 ms - 40[0m
+2021-04-06 00:42:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:22 info: [0mPOST /token [33m401[0m 0.790 ms - 40[0m
+2021-04-06 00:42:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:25 info: [0mPOST /logout [33m401[0m 2.233 ms - 40[0m
+2021-04-06 00:42:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:26 info: [0mPOST /logout [33m401[0m 0.926 ms - 40[0m
+2021-04-06 00:42:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:26 info: [0mPOST /logout [33m401[0m 1.127 ms - 40[0m
+2021-04-06 00:42:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:27 info: [0mPOST /logout [33m401[0m 0.794 ms - 40[0m
+2021-04-06 00:47:22 info: 🚀 App listening on the port 3000
+2021-04-06 00:47:24 info: 🟢 The database is connected.
+2021-04-06 00:47:33 info: [0mPOST /login [32m200[0m 324.706 ms - 608[0m
+2021-04-06 00:47:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:47:44 info: [0mPOST /logout [33m401[0m 2.447 ms - 40[0m
+2021-04-06 00:47:53 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:47:53 info: [0mPOST /logout [33m401[0m 1.303 ms - 40[0m
+2021-04-06 00:48:03 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:03 info: [0mPOST /logout [33m401[0m 0.871 ms - 40[0m
+2021-04-06 00:48:04 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:04 info: [0mPOST /logout [33m401[0m 0.747 ms - 40[0m
+2021-04-06 00:48:05 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:05 info: [0mPOST /logout [33m401[0m 0.923 ms - 40[0m
+2021-04-06 00:48:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:22 info: [0mPOST /token [33m401[0m 1.015 ms - 40[0m
+2021-04-06 00:48:24 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:24 info: [0mPOST /token [33m401[0m 0.795 ms - 40[0m
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 info: [0mPOST /token [33m401[0m 0.848 ms - 40[0m
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 info: [0mPOST /token [33m401[0m 0.750 ms - 40[0m
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 info: [0mPOST /token [33m401[0m 0.745 ms - 40[0m
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 info: [0mPOST /token [33m401[0m 1.500 ms - 40[0m
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 info: [0mPOST /token [33m401[0m 0.753 ms - 40[0m
+2021-04-06 00:48:42 info: [0mPOST /login [32m200[0m 282.164 ms - 608[0m
+2021-04-06 00:48:54 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:54 info: [0mPOST /logout [33m401[0m 0.839 ms - 40[0m
+2021-04-06 00:49:04 info: 🚀 App listening on the port 3000
+2021-04-06 00:49:06 info: 🟢 The database is connected.
+2021-04-06 00:49:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:49:07 info: [0mPOST /logout [33m401[0m 19.720 ms - 40[0m
+2021-04-06 00:49:11 info: [0mPOST /login [32m200[0m 349.775 ms - 611[0m
+2021-04-06 00:49:30 info: [0mPOST /logout [32m200[0m 507.251 ms - 225[0m
+2021-04-06 00:50:00 info: 🚀 App listening on the port 3000
+2021-04-06 00:50:02 info: 🟢 The database is connected.
+2021-04-06 00:50:07 info: 🚀 App listening on the port 3000
+2021-04-06 00:50:09 info: 🟢 The database is connected.
+2021-04-06 00:50:43 info: 🚀 App listening on the port 3000
+2021-04-06 00:50:45 info: 🟢 The database is connected.
+2021-04-06 00:50:46 info: [0mPOST /login [32m200[0m 1145.189 ms - 609[0m
+2021-04-06 00:50:59 info: [0mPOST /logout [32m200[0m 420.104 ms - 225[0m
+2021-04-06 00:51:05 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:05 info: [0mPOST /logout [33m401[0m 1.792 ms - 40[0m
+2021-04-06 00:51:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:07 info: [0mPOST /logout [33m401[0m 1.309 ms - 40[0m
+2021-04-06 00:51:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:08 info: [0mPOST /logout [33m401[0m 1.949 ms - 40[0m
+2021-04-06 00:51:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:08 info: [0mPOST /logout [33m401[0m 0.783 ms - 40[0m
+2021-04-06 00:51:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:08 info: [0mPOST /logout [33m401[0m 1.172 ms - 40[0m
+2021-04-06 00:52:42 info: [0mPOST /login [32m200[0m 290.106 ms - 609[0m
+2021-04-06 00:53:13 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:13 info: [0mPOST /logout [33m401[0m 2.828 ms - 40[0m
+2021-04-06 00:53:14 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:14 info: [0mPOST /logout [33m401[0m 0.827 ms - 40[0m
+2021-04-06 00:53:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:15 info: [0mPOST /logout [33m401[0m 0.961 ms - 40[0m
+2021-04-06 00:53:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:16 info: [0mPOST /logout [33m401[0m 1.120 ms - 40[0m
+2021-04-06 00:53:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:16 info: [0mPOST /logout [33m401[0m 0.873 ms - 40[0m
+2021-04-06 00:53:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:16 info: [0mPOST /logout [33m401[0m 1.002 ms - 40[0m
+2021-04-06 00:53:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:16 info: [0mPOST /logout [33m401[0m 1.827 ms - 40[0m
+2021-04-06 00:53:35 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:35 info: [0mPOST /token [33m401[0m 0.939 ms - 40[0m
+2021-04-06 00:53:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:36 info: [0mPOST /token [33m401[0m 0.987 ms - 40[0m
+2021-04-06 00:53:54 info: 🚀 App listening on the port 3000
+2021-04-06 00:53:56 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:56 info: [0mPOST /token [33m401[0m 19.222 ms - 40[0m
+2021-04-06 00:53:57 info: 🟢 The database is connected.
+2021-04-06 00:54:11 info: 🚀 App listening on the port 3000
+2021-04-06 00:54:13 info: 🟢 The database is connected.
+2021-04-06 00:54:17 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:54:17 info: [0mPOST /token [33m401[0m 14.759 ms - 40[0m
+2021-04-06 00:54:47 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:54:47 info: [0mPOST /token [33m401[0m 2.218 ms - 40[0m
+2021-04-06 00:55:48 info: 🚀 App listening on the port 3000
+2021-04-06 00:55:50 info: 🟢 The database is connected.
+2021-04-06 00:55:51 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:55:51 info: [0mPOST /token [33m401[0m 18.020 ms - 40[0m
+2021-04-06 00:56:00 info: 🚀 App listening on the port 3000
+2021-04-06 00:56:02 info: 🟢 The database is connected.
+2021-04-06 00:56:09 info: 🚀 App listening on the port 3000
+2021-04-06 00:56:11 info: 🟢 The database is connected.
+2021-04-06 00:56:12 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:56:12 info: [0mPOST /token [33m401[0m 21.982 ms - 38[0m
+2021-04-06 00:56:31 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:56:31 info: [0mPOST /token [33m401[0m 1.844 ms - 38[0m
+2021-04-06 00:58:20 info: 🚀 App listening on the port 3000
+2021-04-06 00:58:22 info: 🟢 The database is connected.
+2021-04-06 00:59:29 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:59:29 info: [0mPOST /token [33m401[0m 21.325 ms - 38[0m
+2021-04-06 00:59:36 info: [0mPOST /login [32m200[0m 374.172 ms - 609[0m
+2021-04-06 00:59:44 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:59:44 info: [0mPOST /token [33m401[0m 1.097 ms - 38[0m
+2021-04-06 00:59:58 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:59:58 info: [0mPOST /token [33m401[0m 1.014 ms - 38[0m
+2021-04-06 01:02:13 info: 🚀 App listening on the port 3000
+2021-04-06 01:02:15 info: 🟢 The database is connected.
+2021-04-06 01:02:16 info: [0mPOST /login [32m200[0m 1004.505 ms - 609[0m
+2021-04-06 01:02:21 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:02:21 info: [0mPOST /token [33m401[0m 3.873 ms - 38[0m
+2021-04-06 01:02:27 info: [0mPOST /login [32m200[0m 279.708 ms - 609[0m
+2021-04-06 01:02:37 error: StatusCode : 400, Message : Unexpected string in JSON at position 161
+2021-04-06 01:02:37 info: [0mPOST /token [33m400[0m 3.598 ms - 55[0m
+2021-04-06 01:02:40 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:02:40 info: [0mPOST /token [33m401[0m 1.632 ms - 38[0m
+2021-04-06 01:05:21 info: 🚀 App listening on the port 3000
+2021-04-06 01:05:24 info: 🟢 The database is connected.
+2021-04-06 01:05:24 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:05:24 info: [0mPOST /token [33m401[0m 19.863 ms - 38[0m
+2021-04-06 01:06:03 info: 🚀 App listening on the port 3000
+2021-04-06 01:06:05 info: 🟢 The database is connected.
+2021-04-06 01:06:07 info: [0mPOST /login [32m200[0m 339.079 ms - 611[0m
+2021-04-06 01:06:26 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:06:26 info: [0mPOST /token [33m401[0m 3.150 ms - 38[0m
+2021-04-06 01:07:26 info: 🚀 App listening on the port 3000
+2021-04-06 01:07:28 info: 🟢 The database is connected.
+2021-04-06 01:07:32 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:07:32 info: [0mPOST /token [33m401[0m 19.617 ms - 38[0m
+2021-04-06 01:08:02 info: 🚀 App listening on the port 3000
+2021-04-06 01:08:04 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:08:04 info: [0mPOST /token [33m401[0m 19.305 ms - 38[0m
+2021-04-06 01:08:04 info: 🟢 The database is connected.
+2021-04-06 01:08:12 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:08:12 info: [0mPOST /token [33m401[0m 1.489 ms - 38[0m
+2021-04-06 01:08:40 info: 🚀 App listening on the port 3000
+2021-04-06 01:08:41 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:08:41 info: [0mPOST /token [33m401[0m 17.780 ms - 38[0m
+2021-04-06 01:08:42 info: 🟢 The database is connected.
+2021-04-06 01:17:20 info: 🚀 App listening on the port 3000
+2021-04-06 01:17:22 info: 🟢 The database is connected.
+2021-04-06 01:17:35 error: StatusCode : 500, Message : secret or public key must be provided
+2021-04-06 01:17:35 info: [0mPOST /token [31m500[0m 17.647 ms - 51[0m
+2021-04-06 01:17:48 error: StatusCode : 500, Message : secret or public key must be provided
+2021-04-06 01:17:48 info: [0mPOST /token [31m500[0m 2.087 ms - 51[0m
+2021-04-06 01:18:23 info: [0mPOST /login [32m200[0m 302.773 ms - 611[0m
+2021-04-06 01:18:30 error: StatusCode : 500, Message : secret or public key must be provided
+2021-04-06 01:18:30 info: [0mPOST /token [31m500[0m 0.801 ms - 51[0m
+2021-04-06 01:18:35 error: StatusCode : 500, Message : secret or public key must be provided
+2021-04-06 01:18:35 info: [0mPOST /token [31m500[0m 0.885 ms - 51[0m
+2021-04-06 01:19:29 info: 🚀 App listening on the port 3000
+2021-04-06 01:19:32 info: 🟢 The database is connected.
+2021-04-06 01:19:57 info: 🚀 App listening on the port 3000
+2021-04-06 01:19:59 info: 🟢 The database is connected.
+2021-04-06 01:20:00 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:20:00 info: [0mPOST /token [33m401[0m 20.047 ms - 38[0m
+2021-04-06 01:20:07 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:20:07 info: [0mPOST /token [33m401[0m 1.814 ms - 38[0m
+2021-04-06 01:20:32 info: 🚀 App listening on the port 3000
+2021-04-06 01:20:33 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:20:33 info: [0mPOST /token [33m401[0m 14.886 ms - 38[0m
+2021-04-06 01:20:33 info: 🟢 The database is connected.
+2021-04-06 01:20:38 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:20:38 info: [0mPOST /token [33m401[0m 1.290 ms - 38[0m
+2021-04-06 01:21:11 info: 🚀 App listening on the port 3000
+2021-04-06 01:21:12 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:21:12 info: [0mPOST /token [33m401[0m 29.443 ms - 38[0m
+2021-04-06 01:21:13 info: 🟢 The database is connected.
+2021-04-06 01:23:10 info: 🚀 App listening on the port 3000
+2021-04-06 01:23:10 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:23:10 info: [0mPOST /token [33m401[0m 37.217 ms - 38[0m
+2021-04-06 01:23:12 info: 🟢 The database is connected.
+2021-04-06 01:23:32 info: 🚀 App listening on the port 3000
+2021-04-06 01:23:33 info: [0mPOST /token [32m200[0m 15.873 ms - 38[0m
+2021-04-06 01:23:34 info: 🟢 The database is connected.
+2021-04-06 01:24:04 info: 🚀 App listening on the port 3000
+2021-04-06 01:24:06 info: 🟢 The database is connected.
+2021-04-06 01:24:07 info: [0mPOST /token [32m200[0m 13.731 ms - 38[0m
+2021-04-06 01:24:28 info: 🚀 App listening on the port 3000
+2021-04-06 01:24:29 info: [0mPOST /token [32m200[0m 15.506 ms - 248[0m
+2021-04-06 01:24:30 info: 🟢 The database is connected.
+2021-04-06 01:26:28 info: 🚀 App listening on the port 3000
+2021-04-06 01:26:30 info: 🟢 The database is connected.
+2021-04-06 01:26:32 info: [0mPOST /token [32m200[0m 17.643 ms - 248[0m
+2021-04-06 01:29:52 info: 🚀 App listening on the port 3000
+2021-04-06 01:29:55 info: 🟢 The database is connected.
+2021-04-06 01:32:10 info: 🚀 App listening on the port 3000
+2021-04-06 01:32:12 info: 🚀 App listening on the port 3000
+2021-04-06 01:32:14 info: 🟢 The database is connected.
+2021-04-06 01:32:32 info: 🚀 App listening on the port 3000
+2021-04-06 01:32:34 info: 🟢 The database is connected.
+2021-04-06 01:32:34 info: [0mPOST /login [32m200[0m 1024.958 ms - 608[0m
+2021-04-06 01:32:38 info: [0mPOST /login [32m200[0m 363.755 ms - 608[0m
+2021-04-06 01:32:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:32:44 info: [0mPOST /logout [33m401[0m 2.625 ms - 40[0m
+2021-04-06 01:33:01 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:01 info: [0mPOST /logout [33m401[0m 1.798 ms - 40[0m
+2021-04-06 01:33:22 info: [0mPOST /token [32m200[0m 0.903 ms - 245[0m
+2021-04-06 01:33:24 info: [0mPOST /token [32m200[0m 0.791 ms - 245[0m
+2021-04-06 01:33:28 info: [0mPOST /token [32m200[0m 2.009 ms - 245[0m
+2021-04-06 01:33:29 info: [0mPOST /token [32m200[0m 0.687 ms - 245[0m
+2021-04-06 01:33:30 info: [0mPOST /token [32m200[0m 0.760 ms - 245[0m
+2021-04-06 01:33:42 info: 🚀 App listening on the port 3000
+2021-04-06 01:33:42 info: [0mPOST /token [32m200[0m 19.148 ms - 246[0m
+2021-04-06 01:33:44 info: 🟢 The database is connected.
+2021-04-06 01:33:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:52 info: [0mPOST /logout [33m401[0m 2.422 ms - 40[0m
+2021-04-06 01:33:54 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:54 info: [0mPOST /logout [33m401[0m 1.013 ms - 40[0m
+2021-04-06 01:33:55 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:55 info: [0mPOST /logout [33m401[0m 0.978 ms - 40[0m
+2021-04-06 01:33:59 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:59 info: [0mPOST /logout [33m401[0m 0.982 ms - 40[0m
+2021-04-06 01:34:03 info: [0mPOST /token [32m200[0m 1.325 ms - 246[0m
+2021-04-06 01:34:17 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:17 info: [0mPOST /logout [33m401[0m 0.932 ms - 40[0m
+2021-04-06 01:34:18 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:18 info: [0mPOST /logout [33m401[0m 0.930 ms - 40[0m
+2021-04-06 01:34:29 info: 🚀 App listening on the port 3000
+2021-04-06 01:34:31 info: 🟢 The database is connected.
+2021-04-06 01:34:32 info: [0mPOST /token [32m200[0m 18.665 ms - 248[0m
+2021-04-06 01:34:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:50 info: [0mPOST /logout [33m401[0m 2.815 ms - 40[0m
+2021-04-06 01:34:51 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:51 info: [0mPOST /logout [33m401[0m 0.955 ms - 40[0m
+2021-04-06 01:34:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:52 info: [0mPOST /logout [33m401[0m 0.806 ms - 40[0m
+2021-04-06 01:34:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:52 info: [0mPOST /logout [33m401[0m 0.952 ms - 40[0m
+2021-04-06 01:34:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:52 info: [0mPOST /logout [33m401[0m 0.807 ms - 40[0m
+2021-04-06 01:34:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:52 info: [0mPOST /logout [33m401[0m 0.773 ms - 40[0m
+2021-04-06 01:34:53 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:53 info: [0mPOST /logout [33m401[0m 1.116 ms - 40[0m
+2021-04-06 01:36:04 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:04 info: [0mPOST /logout [33m401[0m 0.852 ms - 40[0m
+2021-04-06 01:36:05 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:05 info: [0mPOST /logout [33m401[0m 1.868 ms - 40[0m
+2021-04-06 01:36:06 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:06 info: [0mPOST /logout [33m401[0m 1.432 ms - 40[0m
+2021-04-06 01:36:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:08 info: [0mPOST /logout [33m401[0m 0.803 ms - 40[0m
+2021-04-06 01:36:48 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:48 info: [0mPOST /logout [33m401[0m 1.482 ms - 40[0m
+2021-04-06 01:36:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:50 info: [0mPOST /logout [33m401[0m 0.791 ms - 40[0m
+2021-04-06 01:36:59 info: [0mPOST /token [32m200[0m 1.236 ms - 248[0m
+2021-04-06 01:37:19 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:37:19 info: [0mPOST /logout [33m401[0m 0.824 ms - 40[0m
+2021-04-06 01:37:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:37:20 info: [0mPOST /logout [33m401[0m 1.296 ms - 40[0m
+2021-04-06 01:37:24 info: [0mPOST /login [32m200[0m 309.029 ms - 611[0m
+2021-04-06 01:37:37 info: [0mPOST /logout [32m200[0m 421.492 ms - 225[0m
+2021-04-06 01:37:47 info: [0mPOST /login [32m200[0m 287.175 ms - 611[0m
+2021-04-06 01:37:57 info: [0mPOST /token [32m200[0m 0.727 ms - 248[0m
+2021-04-06 01:38:11 info: [0mPOST /logout [32m200[0m 417.779 ms - 225[0m
+2021-04-06 01:38:14 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:38:14 info: [0mPOST /logout [33m401[0m 1.222 ms - 40[0m
+2021-04-06 01:38:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:38:15 info: [0mPOST /logout [33m401[0m 0.784 ms - 40[0m
+2021-04-06 01:38:23 info: [0mPOST /login [32m200[0m 281.549 ms - 611[0m
+2021-04-06 01:38:39 info: [0mPOST /logout [32m200[0m 417.401 ms - 225[0m
+2021-04-06 01:38:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:38:50 info: [0mPOST /logout [33m401[0m 1.496 ms - 40[0m
+2021-04-06 01:38:56 info: [0mPOST /token [32m200[0m 0.678 ms - 248[0m
+2021-04-06 01:39:06 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:39:06 info: [0mPOST /logout [33m401[0m 0.749 ms - 40[0m
+2021-04-06 01:39:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:39:07 info: [0mPOST /logout [33m401[0m 0.869 ms - 40[0m
+2021-04-06 01:39:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:39:08 info: [0mPOST /logout [33m401[0m 1.148 ms - 40[0m
+2021-04-06 01:39:09 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:39:09 info: [0mPOST /logout [33m401[0m 0.802 ms - 40[0m
+2021-04-06 01:39:13 info: [0mPOST /login [32m200[0m 285.838 ms - 611[0m
+2021-04-06 01:39:28 info: [0mPOST /token [32m200[0m 0.803 ms - 248[0m
+2021-04-06 01:39:37 info: [0mPOST /logout [32m200[0m 414.981 ms - 225[0m
+2021-04-06 01:39:49 info: 🚀 App listening on the port 3000
+2021-04-06 01:39:51 info: 🟢 The database is connected.
+2021-04-06 01:39:57 info: [0mPOST /login [32m200[0m 323.266 ms - 609[0m
+2021-04-06 01:40:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:20 info: [0mPOST /logout [33m401[0m 3.261 ms - 40[0m
+2021-04-06 01:40:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:21 info: [0mPOST /logout [33m401[0m 1.109 ms - 40[0m
+2021-04-06 01:40:26 info: [0mPOST /token [32m200[0m 1.669 ms - 246[0m
+2021-04-06 01:40:35 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:35 info: [0mPOST /logout [33m401[0m 0.958 ms - 40[0m
+2021-04-06 01:40:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:36 info: [0mPOST /logout [33m401[0m 0.912 ms - 40[0m
+2021-04-06 01:40:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:36 info: [0mPOST /logout [33m401[0m 1.914 ms - 40[0m
+2021-04-06 01:40:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:37 info: [0mPOST /logout [33m401[0m 1.162 ms - 40[0m
+2021-04-06 01:40:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:37 info: [0mPOST /logout [33m401[0m 0.958 ms - 40[0m
+2021-04-06 01:40:46 info: 🚀 App listening on the port 3000
+2021-04-06 01:40:48 info: 🟢 The database is connected.
+2021-04-06 01:40:49 info: [0mPOST /login [32m200[0m 1570.499 ms - 609[0m
+2021-04-06 01:40:51 info: [0mPOST /login [32m200[0m 279.442 ms - 609[0m
+2021-04-06 01:40:57 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:57 info: [0mPOST /logout [33m401[0m 2.090 ms - 40[0m
+2021-04-06 01:40:58 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:58 info: [0mPOST /logout [33m401[0m 1.007 ms - 40[0m
+2021-04-06 01:41:00 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:00 info: [0mPOST /logout [33m401[0m 0.787 ms - 40[0m
+2021-04-06 01:41:06 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:06 info: [0mPOST /logout [33m401[0m 1.499 ms - 40[0m
+2021-04-06 01:41:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:07 info: [0mPOST /logout [33m401[0m 0.785 ms - 40[0m
+2021-04-06 01:41:20 info: [0mGET /posts [32m200[0m 221.273 ms - 3248[0m
+2021-04-06 01:41:21 info: [0mGET /posts [32m200[0m 215.833 ms - 3248[0m
+2021-04-06 01:41:22 info: [0mGET /posts [32m200[0m 216.009 ms - 3248[0m
+2021-04-06 01:41:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:36 info: [0mPOST /logout [33m401[0m 0.870 ms - 40[0m
+2021-04-06 01:41:48 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:48 info: [0mPOST /logout [33m401[0m 0.889 ms - 40[0m
+2021-04-06 01:41:49 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:49 info: [0mPOST /logout [33m401[0m 0.912 ms - 40[0m
+2021-04-06 01:41:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:50 info: [0mPOST /logout [33m401[0m 0.809 ms - 40[0m
+2021-04-06 01:42:05 info: [0mPOST /token [32m200[0m 0.988 ms - 246[0m
+2021-04-06 01:42:13 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:13 info: [0mPOST /logout [33m401[0m 2.001 ms - 40[0m
+2021-04-06 01:42:14 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:14 info: [0mPOST /logout [33m401[0m 1.211 ms - 40[0m
+2021-04-06 01:42:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:15 info: [0mPOST /logout [33m401[0m 0.938 ms - 40[0m
+2021-04-06 01:42:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:15 info: [0mPOST /logout [33m401[0m 1.057 ms - 40[0m
+2021-04-06 01:42:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:15 info: [0mPOST /logout [33m401[0m 1.776 ms - 40[0m
+2021-04-06 01:42:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:15 info: [0mPOST /logout [33m401[0m 0.853 ms - 40[0m
+2021-04-06 01:42:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:16 info: [0mPOST /logout [33m401[0m 0.918 ms - 40[0m
+2021-04-06 01:42:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:16 info: [0mPOST /logout [33m401[0m 0.830 ms - 40[0m
+2021-04-06 01:42:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:16 info: [0mPOST /logout [33m401[0m 1.078 ms - 40[0m
+2021-04-06 01:42:54 info: 🚀 App listening on the port 3000
+2021-04-06 01:42:56 info: 🟢 The database is connected.
+2021-04-06 01:42:57 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:57 info: [0mGET /posts [33m401[0m 5.557 ms - 40[0m
+2021-04-06 01:43:24 info: [0mPOST /login [32m200[0m 319.131 ms - 609[0m
+2021-04-06 01:43:36 info: [0mGET /posts [32m200[0m 424.246 ms - 3248[0m
+2021-04-06 01:43:40 info: [0mGET /posts [32m200[0m 416.270 ms - 3248[0m
+2021-04-06 01:43:41 info: [0mGET /posts [32m200[0m 417.925 ms - 3248[0m
+2021-04-06 01:43:42 info: [0mGET /posts [32m200[0m 415.559 ms - 3248[0m
+2021-04-06 01:43:44 info: [0mGET /posts [32m200[0m 416.358 ms - 3248[0m
+2021-04-06 01:43:45 info: [0mGET /posts [32m200[0m 417.434 ms - 3248[0m
+2021-04-06 01:43:46 info: [0mGET /posts [32m200[0m 416.328 ms - 3248[0m
+2021-04-06 01:43:47 info: [0mGET /posts [32m200[0m 417.939 ms - 3248[0m
+2021-04-06 01:43:49 info: [0mGET /posts [32m200[0m 406.812 ms - 3248[0m
+2021-04-06 01:43:52 info: [0mGET /posts [32m200[0m 411.379 ms - 3248[0m
+2021-04-06 01:43:56 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:43:56 info: [0mGET /posts [33m401[0m 1.100 ms - 40[0m
+2021-04-06 01:43:57 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:43:57 info: [0mGET /posts [33m401[0m 0.793 ms - 40[0m
+2021-04-06 01:44:16 info: [0mPOST /token [32m200[0m 1.025 ms - 246[0m
+2021-04-06 01:44:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:44:26 info: [0mGET /posts [33m401[0m 1.578 ms - 40[0m
+2021-04-06 01:44:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:44:27 info: [0mGET /posts [33m401[0m 1.030 ms - 40[0m
+2021-04-06 01:44:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:44:27 info: [0mGET /posts [33m401[0m 0.973 ms - 40[0m
+2021-04-06 01:44:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:44:50 info: [0mGET /posts [33m401[0m 0.856 ms - 40[0m
+2021-04-06 01:45:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:45:07 info: [0mGET /posts [33m401[0m 0.767 ms - 40[0m
+2021-04-06 01:45:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:45:08 info: [0mGET /posts [33m401[0m 1.327 ms - 40[0m
+2021-04-06 01:45:28 info: [0mPOST /token [32m200[0m 0.666 ms - 246[0m
+2021-04-06 01:46:03 info: 🚀 App listening on the port 3000
+2021-04-06 01:46:05 info: 🟢 The database is connected.
+2021-04-06 01:46:08 info: 🚀 App listening on the port 3000
+2021-04-06 01:46:10 info: [0mPOST /token [32m200[0m 18.496 ms - 246[0m
+2021-04-06 01:46:10 info: 🟢 The database is connected.
+2021-04-06 01:46:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:46:22 info: [0mGET /posts [33m401[0m 1.598 ms - 40[0m
+2021-04-06 01:46:45 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:46:45 info: [0mGET /posts [33m401[0m 1.678 ms - 40[0m
+2021-04-06 01:47:04 info: [0mPOST /token [32m200[0m 1.213 ms - 246[0m
+2021-04-06 01:47:13 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:47:13 info: [0mGET /posts [33m401[0m 0.777 ms - 40[0m
+2021-04-06 01:47:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:47:20 info: [0mGET /posts [33m401[0m 0.884 ms - 40[0m
+2021-04-06 01:47:24 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:47:24 info: [0mGET /posts [33m401[0m 0.926 ms - 40[0m
+2021-04-06 01:48:21 info: 🚀 App listening on the port 3000
+2021-04-06 01:48:23 info: 🟢 The database is connected.
+2021-04-06 01:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:25 info: [0mGET /posts [33m401[0m 14.010 ms - 40[0m
+2021-04-06 01:48:29 info: [0mPOST /token [32m200[0m 2.275 ms - 246[0m
+2021-04-06 01:48:41 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:41 info: [0mGET /posts [33m401[0m 1.408 ms - 40[0m
+2021-04-06 01:48:43 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:43 info: [0mGET /posts [33m401[0m 1.270 ms - 40[0m
+2021-04-06 01:48:43 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:43 info: [0mGET /posts [33m401[0m 0.892 ms - 40[0m
+2021-04-06 01:48:43 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:43 info: [0mGET /posts [33m401[0m 0.844 ms - 40[0m
+2021-04-06 01:48:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:44 info: [0mGET /posts [33m401[0m 0.855 ms - 40[0m
+2021-04-06 01:48:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:44 info: [0mGET /posts [33m401[0m 0.963 ms - 40[0m
+2021-04-06 01:48:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:44 info: [0mGET /posts [33m401[0m 0.913 ms - 40[0m
+2021-04-06 01:50:00 info: 🚀 App listening on the port 3000
+2021-04-06 01:50:02 info: 🟢 The database is connected.
+2021-04-06 01:50:03 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:50:03 info: [0mGET /posts [33m401[0m 14.282 ms - 40[0m
+2021-04-06 01:50:06 info: [0mPOST /token [32m200[0m 2.098 ms - 246[0m
+2021-04-06 01:50:21 info: [0mGET /posts [32m200[0m 442.373 ms - 3248[0m
+2021-04-06 01:51:38 info: 🚀 App listening on the port 3000
+2021-04-06 01:51:40 info: 🟢 The database is connected.
+2021-04-06 01:51:56 info: 🚀 App listening on the port 3000
+2021-04-06 01:51:58 info: 🟢 The database is connected.
+2021-04-06 01:52:02 info: 🚀 App listening on the port 3000
+2021-04-06 01:52:04 info: 🟢 The database is connected.
+2021-04-06 01:52:54 info: 🚀 App listening on the port 3000
+2021-04-06 01:52:56 info: 🟢 The database is connected.
+2021-04-06 01:53:32 info: 🚀 App listening on the port 3000
+2021-04-06 01:53:34 info: 🟢 The database is connected.
+2021-04-06 01:53:35 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:53:35 info: [0mGET /posts [33m401[0m 20.275 ms - 40[0m
+2021-04-06 01:53:39 info: [0mPOST /token [32m200[0m 2.228 ms - 246[0m
+2021-04-06 01:53:52 info: [0mGET /posts [32m200[0m 439.387 ms - 3248[0m
+2021-04-06 01:59:13 info: 🚀 App listening on the port 3000
+2021-04-06 01:59:15 info: 🟢 The database is connected.
+2021-04-06 01:59:45 info: 🚀 App listening on the port 3000
+2021-04-06 01:59:47 info: 🟢 The database is connected.
+2021-04-06 02:00:40 info: 🚀 App listening on the port 3000
+2021-04-06 02:00:42 info: 🟢 The database is connected.

@@ -1,0 +1,194 @@
+2021-04-05 20:36:54 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
+2021-04-05 20:41:03 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
+2021-04-05 20:42:35 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
+2021-04-05 20:43:53 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
+2021-04-05 20:45:47 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
+2021-04-05 20:46:39 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
+2021-04-05 20:56:55 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 20:57:03 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 20:58:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 20:58:19 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 20:58:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:01:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:01:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:01:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:02:39 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:02:40 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:03:22 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:05:08 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:05:17 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:05:18 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:06:07 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:41:41 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:42:22 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:42:46 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:45:05 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:45:54 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:46:01 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:46:31 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:46:45 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:46:59 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:47:19 error: StatusCode : 401, Message : Wrong authentication tokens
+2021-04-05 21:48:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:50:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:51:40 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:52:01 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:52:23 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:53:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:54:24 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 21:58:31 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 22:01:12 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 22:06:08 error: StatusCode : 409, Message : You're not user
+2021-04-05 22:24:06 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:01:59 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/mongoose/lib/index.js:536:13)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/models/posts.model.ts:59:19)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/services/posts.service.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+2021-04-05 23:02:11 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/mongoose/lib/index.js:536:13)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/models/posts.model.ts:59:19)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/services/posts.service.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+2021-04-05 23:02:21 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/mongoose/lib/index.js:536:13)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/models/posts.model.ts:59:19)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/services/posts.service.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+2021-04-05 23:03:55 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/mongoose/lib/index.js:536:13)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/models/posts.model.ts:59:19)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/services/posts.service.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+2021-04-05 23:04:18 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/mongoose/lib/index.js:536:13)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/models/posts.model.ts:59:19)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/services/posts.service.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+2021-04-05 23:15:40 error: 🔴 Unable to connect to the database: MongoParseError: Invalid connection string.
+2021-04-05 23:27:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:29 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:29 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:30 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:38 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:38 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:38 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:38 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:39 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:39 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:27:40 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:30:33 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/express/lib/router/index.js:510:19)
+    at AuthRoute.initializeRoutes (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:19:17)
+    at new AuthRoute (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:13:10)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/server.ts:11:74)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:824:10)
+    at main (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/bin.ts:198:14)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/bin.ts:288:3)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+2021-04-05 23:34:22 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/express/lib/router/index.js:510:19)
+    at AuthRoute.initializeRoutes (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:19:17)
+    at new AuthRoute (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:13:10)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/server.ts:11:74)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:824:10)
+    at main (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/bin.ts:198:14)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/bin.ts:288:3)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+2021-04-05 23:35:47 error: StatusCode : 404, Message : Authentication token missing
+2021-04-05 23:37:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:38:43 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:39:00 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-05 23:39:05 error: StatusCode : 401, Message : Wrong authentication token

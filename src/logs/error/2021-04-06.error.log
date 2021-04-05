@@ -1,0 +1,282 @@
+2021-04-06 00:00:45 error: uncaughtException: Missing initializer in const declaration
+/Users/luismanzanero/Projects/EcoCrypt/webApi/src/controllers/auth.controller.ts:45
+                const getToken;
+                      ^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Module._compile (internal/modules/cjs/loader.js:703:23)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+2021-04-06 00:00:53 error: uncaughtException: Missing initializer in const declaration
+/Users/luismanzanero/Projects/EcoCrypt/webApi/src/controllers/auth.controller.ts:45
+                const getToken;
+                      ^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Module._compile (internal/modules/cjs/loader.js:703:23)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+2021-04-06 00:01:49 error: uncaughtException: Missing initializer in const declaration
+/Users/luismanzanero/Projects/EcoCrypt/webApi/src/controllers/auth.controller.ts:45
+                const getToken;
+                      ^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Module._compile (internal/modules/cjs/loader.js:703:23)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+2021-04-06 00:02:18 error: uncaughtException: Missing initializer in const declaration
+/Users/luismanzanero/Projects/EcoCrypt/webApi/src/controllers/auth.controller.ts:45
+                const getToken;
+                      ^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Module._compile (internal/modules/cjs/loader.js:703:23)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Module.require (internal/modules/cjs/loader.js:666:19)
+2021-04-06 00:24:25 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:25:04 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:24 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:25:59 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:26:01 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:26:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:27:07 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/express/lib/router/index.js:510:19)
+    at AuthRoute.initializeRoutes (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:19:17)
+    at new AuthRoute (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/routes/auth.route.ts:13:10)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/src/server.ts:11:74)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Module.m._compile (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:628:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:555:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:824:10)
+    at main (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/bin.ts:198:14)
+    at Object.<anonymous> (/Users/luismanzanero/Projects/EcoCrypt/webApi/node_modules/ts-node/src/bin.ts:288:3)
+    at Module._compile (internal/modules/cjs/loader.js:759:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:770:10)
+2021-04-06 00:27:17 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:27:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:27:40 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:27:56 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:28:02 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:28:19 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:17 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:23 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:33:28 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:34:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:34:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:39:39 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:39:40 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:39:41 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:42:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:47:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:47:53 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:03 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:04 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:05 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:24 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:48:54 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:49:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:05 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:51:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:13 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:14 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:35 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:53:56 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:54:17 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:54:47 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:55:51 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 00:56:12 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:56:31 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:59:29 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:59:44 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 00:59:58 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:02:21 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:02:37 error: StatusCode : 400, Message : Unexpected string in JSON at position 161
+2021-04-06 01:02:40 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:05:24 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:06:26 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:07:32 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:08:04 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:08:12 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:08:41 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:17:35 error: StatusCode : 500, Message : secret or public key must be provided
+2021-04-06 01:17:48 error: StatusCode : 500, Message : secret or public key must be provided
+2021-04-06 01:18:30 error: StatusCode : 500, Message : secret or public key must be provided
+2021-04-06 01:18:35 error: StatusCode : 500, Message : secret or public key must be provided
+2021-04-06 01:20:00 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:20:07 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:20:33 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:20:38 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:21:12 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:23:10 error: StatusCode : 401, Message : Not a valid refreshToken
+2021-04-06 01:32:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:01 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:54 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:55 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:33:59 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:17 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:18 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:51 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:52 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:34:53 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:04 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:05 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:06 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:48 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:36:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:37:19 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:37:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:38:14 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:38:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:38:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:39:06 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:39:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:39:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:39:09 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:21 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:35 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:37 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:57 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:40:58 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:00 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:06 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:36 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:48 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:49 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:41:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:13 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:14 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:15 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:16 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:42:57 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:43:56 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:43:57 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:44:26 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:44:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:44:27 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:44:50 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:45:07 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:45:08 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:46:22 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:46:45 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:47:13 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:47:20 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:47:24 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:25 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:41 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:43 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:43 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:43 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:48:44 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:50:03 error: StatusCode : 401, Message : Wrong authentication token
+2021-04-06 01:53:35 error: StatusCode : 401, Message : Wrong authentication token
