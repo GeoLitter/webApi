@@ -9,7 +9,7 @@ class UserService {
   public users = userModel;
 
   public async findAllUser(): Promise<User[]> {
-    const users: User[] = await this.users.find();
+    const users: User[] = await this.users.find({}, ['name', 'avatar', 'profile']);
     return users;
   }
 
