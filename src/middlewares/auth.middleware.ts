@@ -7,10 +7,11 @@ import userModel from '../models/users.model';
 const authMiddleware = async (req: RequestWithUser, res: Response, next: NextFunction) => {
   try {
     // const cookies = req.cookies; 
-    const token = req.body.token;
-     
+    // const token = req.body.token;
+     const headerToken = req.headers.authorization;
 
-    if (token) { 
+    if (headerToken) { 
+      const token = headerToken.split(' ')[1];
       const secret = process.env.JWT_SECRET;
       const tokenVerficationResponse = (await jwt.verify(token, secret)) as DataStoredInToken;
       //can use cookies instead
