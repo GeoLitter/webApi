@@ -17,6 +17,16 @@ class PostsService {
     const createPostData: Post = await this.posts.create({...post});
     return createPostData;
   }
+
+  public async deletePost(postId: String, userId: String): Promise<Post> {
+    // Todo: Fix bug to only delete authorsized posts
+    const findPostById: Post = await this.posts.findById(postId);    
+    //check to see post belongs to authorized user
+    if(findPostById.user.toString() !== userId.toString()) throw new HttpException(401, "Not Authorized to make this request");
+    //if user matches delete post
+    const deletePostById: Post = await this.posts.findByIdAndDelete(findPostById);
+    return deletePostById; 
+  }
 }
 
 export default PostsService;

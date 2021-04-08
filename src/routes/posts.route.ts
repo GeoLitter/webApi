@@ -17,7 +17,7 @@ class PostsRoute implements Route {
     // this.router.get(`${this.path}/:id`, this.postsController.getUserById);
     this.router.post(`${this.path}`, authMiddleware, this.postsController.createPost);
     // this.router.put(`${this.path}/:id`, validationMiddleware(CreateUserDto, 'body', true), this.postsController.updateUser);
-    // this.router.delete(`${this.path}/:id`, this.postsController.deleteUser);
+    this.router.delete(`${this.path}/:id`, authMiddleware, this.postsController.deletePost);
   }
 }
 

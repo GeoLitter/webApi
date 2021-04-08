@@ -23,6 +23,7 @@ class PostsController {
       long: req.body.long,
       postImage: req.body.postImage,
       avatar: req.body.avatar,
+      tags: [req.body.tags[0]],
       user: req.user._id
     };
     
@@ -33,6 +34,18 @@ class PostsController {
       next(error);
     }
   }
+
+  public deletePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
+    const postId = req.params.id;
+    const userId = req.user._id; 
+    try { 
+      const deletePostById: Post = await this.postService.deletePost(postId, userId);
+      res.status(200).json({ data: deletePostById, message: 'deleted' });
+    } catch (error) { 
+      next(error);
+    }
+  }
 }
+
 
 export default PostsController;

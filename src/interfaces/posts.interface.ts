@@ -1,3 +1,5 @@
+import { Tag } from "./tags.interface";
+
 export interface Post { 
   text: string;
   name: string; 
@@ -6,4 +8,5 @@ export interface Post {
   postImage: string;
   avatar: string;
   user: any;
+  tags: Array<Tag>;
 }
