@@ -7,8 +7,7 @@ import userModel from '../models/users.model';
 import { isEmpty } from '../utils/util';
 
 class ProfilesService {
-  public profiles = profileModel; 
-  public users = userModel
+  public profiles = profileModel;  
 
   public async findAllProfiles(): Promise<Profile[]> {
     const users: Profile[] = await this.profiles.find({}).populate('user', ['name', 'email', 'avatar']);
@@ -22,16 +21,15 @@ class ProfilesService {
     return findUser;
   }
 
-  // public async createProfile(userData: CreateUserDto): Promise<Profile> {
-  //   if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
-
-  //   const findUser: Profile = await this.profiles.findOne({ email: userData.email });
-  //   if (findUser) throw new HttpException(409, `You're email ${userData.email} already exists`);
-
-  //   const hashedPassword = await bcrypt.hash(userData.password, 10);
-  //   const createUserData: Profile = await this.profiles.create({ ...userData, password: hashedPassword });
-  //   return createUserData;
-  // }
+  public async createProfile(profileData): Promise<Profile> { 
+    if (isEmpty(profileData)) throw new HttpException(400, "No Profile Data Provided");
+    console.log(profileData)
+    let profile = await this.profiles.findOneAndUpdate(
+      { user: profileData.user},
+      { $set: profileData},
+      { new: true, upsert: true, setDefaultsOnInsert: true })
+    return profile;
+  }
 
   // public async updateProfile(userId: string, userData: Profile): Promise<Profile> {
   //   if (isEmpty(userData)) throw new HttpException(400, "You're not userData");

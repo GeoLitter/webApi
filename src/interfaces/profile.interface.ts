@@ -1,5 +1,13 @@
+import { User } from "./users.interface";
+
 export interface Profile {
-  _id: string;
-  name: string;
-  email: string; 
+  user: User,
+  location: string,
+  handle: string,
+  status: string,
+  skills: string,
+  bio: string,
+  experience: [],
+  education: []
+  social: []
 }

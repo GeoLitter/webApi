@@ -1,3 +1,4 @@
+import { profile } from 'console';
 import { NextFunction, Request, Response } from 'express'; 
 import { RequestWithUser } from '../interfaces/auth.interface';
 import { Post } from '../interfaces/posts.interface';
@@ -24,7 +25,8 @@ class PostsController {
       postImage: req.body.postImage,
       avatar: req.body.avatar,
       tags: [req.body.tags[0]],
-      user: req.user._id
+      user: req.user._id,
+      profile: req.body.profile
     };
     
     try {

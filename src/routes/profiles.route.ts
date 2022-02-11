@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import ProfilesController from '../controllers/profiles.controller'; 
 import Route from '../interfaces/routes.interface';
+import authMiddleware from '../middlewares/auth.middleware';
 import validationMiddleware from '../middlewares/validation.middleware';
 
 class ProfilesRoute implements Route {
@@ -15,7 +16,7 @@ class ProfilesRoute implements Route {
   private initializeRoutes() {
     this.router.get(`${this.path}`, this.profilesController.getProfiles);
     this.router.get(`${this.path}/:id`, this.profilesController.getProfileById);
-    // this.router.post(`${this.path}`, validationMiddleware(CreateUserDto, 'body'), this.usersController.createUser);
+    this.router.post(`${this.path}`, authMiddleware, this.profilesController.createProfile);
     // this.router.put(`${this.path}/:id`, validationMiddleware(CreateUserDto, 'body', true), this.usersController.updateUser);
     // this.router.delete(`${this.path}/:id`, this.usersController.deleteUser);
   }

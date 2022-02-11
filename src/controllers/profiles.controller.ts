@@ -25,16 +25,22 @@ class ProfilesController {
     }
   };
 
-  // public createUser = async (req: Request, res: Response, next: NextFunction) => {
-  //   const userData: CreateUserDto = req.body;
-
-  //   try {
-  //     const createUserData: User = await this.userService.createUser(userData);
-  //     res.status(201).json({ data: createUserData, message: 'created' });
-  //   } catch (error) {
-  //     next(error);
-  //   }
-  // };
+  public createProfile = async (req: Request, res: Response, next: NextFunction) => {
+    const { user, location, bio, handle } = req.body as Profile; 
+    const profileData = {
+      userid: req.user.id,
+      user: user,
+      location: location,
+      bio: bio,
+      handle: handle
+    }
+    try {
+      const createProfileData: Profile = await this.profileService.createProfile(profileData);
+      res.status(201).json({ data: createProfileData, message: 'created' });
+    } catch (error) {
+      next(error);
+    }
+  };
 
   // public updateUser = async (req: Request, res: Response, next: NextFunction) => {
   //   const userId: string = req.params.id;

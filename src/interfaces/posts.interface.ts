@@ -9,4 +9,5 @@ export interface Post {
   avatar: string;
   user: any;
   tags: Array<Tag>;
+  profile: string;
 }
