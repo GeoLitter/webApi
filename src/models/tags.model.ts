@@ -17,6 +17,6 @@ const tagSchema: Schema = new Schema({
   }
 });
 
-const tagModel = model<Tag & Document>('Tag', tagSchema);
+const tagModel = model<Tag & Document>('tag', tagSchema);
 
 export default tagModel;

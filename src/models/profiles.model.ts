@@ -108,6 +108,6 @@ const profileSchema: Schema = new Schema({
   }
 });
 
-const profileModel = model<Profile & Document>('Profile', profileSchema);
+const profileModel = model<Profile & Document>('profile', profileSchema);
 
 export default profileModel;

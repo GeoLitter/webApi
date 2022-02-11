@@ -4,7 +4,7 @@ import { Post } from '../interfaces/posts.interface';
 const postSchema = new Schema({
   user: {
     type: Schema.Types.ObjectId,
-    ref: 'users'
+    ref: 'user'
   }, 
   text: {
     type: String,
@@ -64,6 +64,6 @@ const postSchema = new Schema({
   }
 });
 
-const userModel = model<Post & Document>('Post', postSchema);
+const postModel = model<Post & Document>('post', postSchema);
 
-export default userModel;
+export default postModel;

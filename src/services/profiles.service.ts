@@ -3,13 +3,15 @@ import { CreateUserDto } from '../dtos/users.dto';
 import HttpException from '../exceptions/HttpException';  
 import { Profile } from '../interfaces/profile.interface';
 import profileModel from '../models/profiles.model';
+import userModel from '../models/users.model';
 import { isEmpty } from '../utils/util';
 
 class ProfilesService {
   public profiles = profileModel; 
+  public users = userModel
 
   public async findAllProfiles(): Promise<Profile[]> {
-    const users: Profile[] = await this.profiles.find({}, ['name', 'avatar', 'email']).populate('profiles', ['location']);
+    const users: Profile[] = await this.profiles.find({}).populate('user', ['name', 'email']);
     return users;
   }
 
