@@ -11,12 +11,12 @@ class ProfilesService {
   public users = userModel
 
   public async findAllProfiles(): Promise<Profile[]> {
-    const users: Profile[] = await this.profiles.find({}).populate('user', ['name', 'email']);
+    const users: Profile[] = await this.profiles.find({}).populate('user', ['name', 'email', 'avatar']);
     return users;
   }
 
   public async findProfileById(userId: string): Promise<Profile> {
-    const findUser: Profile = await this.profiles.findOne({ _id: userId }, ['name', 'avatar', 'email']);
+    const findUser: Profile = await this.profiles.findOne({ _id: userId }).populate('user', ['name', 'email', 'avatar']);
     if (!findUser) throw new HttpException(409, "You're not user");
 
     return findUser;
