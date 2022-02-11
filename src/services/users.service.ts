@@ -1,20 +1,21 @@
 import bcrypt from 'bcrypt';
 import { CreateUserDto } from '../dtos/users.dto';
-import HttpException from '../exceptions/HttpException';
+import HttpException from '../exceptions/HttpException'; 
 import { User } from '../interfaces/users.interface';
+import profileModel from '../models/profile.model';
 import userModel from '../models/users.model';
 import { isEmpty } from '../utils/util';
 
 class UserService {
-  public users = userModel;
+  public users = userModel; 
 
   public async findAllUser(): Promise<User[]> {
-    const users: User[] = await this.users.find({}, ['name', 'avatar', 'profile']);
+    const users: User[] = await this.users.find({}, ['name', 'avatar', 'email']).populate('profiles', ['location']);
     return users;
   }
 
   public async findUserById(userId: string): Promise<User> {
-    const findUser: User = await this.users.findOne({ _id: userId });
+    const findUser: User = await this.users.findOne({ _id: userId }, ['name', 'avatar', 'email']);
     if (!findUser) throw new HttpException(409, "You're not user");
 
     return findUser;
