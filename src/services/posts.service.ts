@@ -11,6 +11,12 @@ class PostsService {
     return posts;
   }
 
+  public async findPostById(postId: string): Promise<Post> {
+    const post: Post = await this.posts.findById(postId)
+    if(!post) throw new HttpException(400, "No Post Found");
+    return post;
+  }
+
   public async createPost(post: Post): Promise<Post> {
     //add validation here
     if (isEmpty(post)) throw new HttpException(400, "Not a valid post");

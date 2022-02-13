@@ -16,6 +16,18 @@ class PostsController {
     }
   };
 
+  public getPostById = async (req: Request, res: Response, next: NextFunction) => {
+    const postId = req.params.id;
+    try {
+      const post: Post = await this.postService.findPostById(postId)
+      return res.status(200).json({
+        data: post, message: "Post Found"
+      })
+    } catch (error) {
+      next(error);
+    }
+  }
+
   public createPost = async (req: RequestWithUser, res: Response, next: NextFunction) => { 
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
