@@ -1,6 +1,9 @@
 import { NextFunction, Request, Response } from 'express'; 
 import { Profile } from '../interfaces/profile.interface'; 
 import profileService from '../services/profiles.service';
+import { check, validationResult } from 'express-validator';
+import normalizeUrl from 'normalize-url';
+import { RequestWithUser } from '../interfaces/auth.interface';
 
 class ProfilesController {
   public profileService = new profileService();
@@ -25,17 +28,50 @@ class ProfilesController {
     }
   };
 
-  public createProfile = async (req: Request, res: Response, next: NextFunction) => {
-    const { user, location, bio, handle } = req.body as Profile; 
-    const profileData = {
-      userid: req.user.id,
-      user: user,
-      location: location,
-      bio: bio,
-      handle: handle
+  public createProfile = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
     }
+
+    // destructure the request
+    const {
+      website,
+      skills,
+      youtube,
+      twitter,
+      instagram,
+      linkedin,
+      facebook,
+      // spread the rest of the fields we don't need to check
+      ...rest
+    } = req.body;
+
+    // build a profile
+    const profileFields = {
+      user: req.user._id,
+      website:
+        website && website !== ''
+          ? website
+          : '',
+      skills: Array.isArray(skills)
+        ? skills
+        : skills?.split(',').map((skill) => ' ' + skill.trim()),
+      ...rest
+    };
+
+    // Build socialFields object
+    const socialFields = { youtube, twitter, instagram, linkedin, facebook };
+
+    // normalize social fields to ensure valid url
+    for (const [key, value] of Object.entries(socialFields)) {
+      if (value && value.length > 0)
+        socialFields[key] = value;
+    }
+    // add to profileFields
+    profileFields.social = socialFields;
     try {
-      const createProfileData: Profile = await this.profileService.createProfile(profileData);
+      const createProfileData: Profile = await this.profileService.createProfile(profileFields);
       res.status(201).json({ data: createProfileData, message: 'created' });
     } catch (error) {
       next(error);
