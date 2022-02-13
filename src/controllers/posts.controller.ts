@@ -31,7 +31,8 @@ class PostsController {
       avatar: req.body.avatar,
       tags: [req.body.tags[0]],
       user: req.user._id,
-      profile: req.body.profile
+      profile: req.body.profile,
+      likes: []
     };
     
     try {
@@ -43,9 +44,16 @@ class PostsController {
   }
 
   public likePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
-   return res.status(200).json({
-     "message": `Liked Post ${req.params.id}`
-   });
+    const postId = req.params.id;
+    const userId = req.user._id; 
+    try {
+      const likedPost = await this.postService.likePost(userId, postId);
+      res.status(200).json({
+        data: likedPost, message: "Post is liked"
+      })
+    } catch (error) { 
+      next(error)
+    }
   }
 
 
