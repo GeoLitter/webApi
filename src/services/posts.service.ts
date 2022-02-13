@@ -7,7 +7,7 @@ class PostsService {
   public posts = postModel;
 
   public async findAllPosts(): Promise<Post[]> {
-    const posts: Post[] = await this.posts.find().populate('profile', ['bio', 'location', 'handle']); 
+    const posts: Post[] = await this.posts.find().sort({ date: -1 }).populate('profile', ['bio', 'location', 'handle']); 
     return posts;
   }
 
