@@ -45,7 +45,7 @@ class App {
       set('debug', true);
     }
 
-    connect(dbConnection.url, dbConnection.options)
+    connect(dbConnection.url)
       .then(() => {
         logger.info('🟢 The database is connected.');
       })
