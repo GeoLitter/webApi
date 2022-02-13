@@ -7,8 +7,14 @@ class PostsService {
   public posts = postModel;
 
   public async findAllPosts(): Promise<Post[]> {
-    const posts: Post[] = await this.posts.find();
+    const posts: Post[] = await this.posts.find().sort({ date: -1 }).populate('profile', ['bio', 'location', 'handle']); 
     return posts;
+  }
+
+  public async findPostById(postId: string): Promise<Post> {
+    const post: Post = await this.posts.findById(postId)
+    if(!post) throw new HttpException(400, "No Post Found");
+    return post;
   }
 
   public async createPost(post: Post): Promise<Post> {
@@ -16,6 +22,34 @@ class PostsService {
     if (isEmpty(post)) throw new HttpException(400, "Not a valid post");
     const createPostData: Post = await this.posts.create({...post});
     return createPostData;
+  }
+
+ 
+  public async likePost(userId, postId) {
+    const post = await this.posts.findById(postId);
+    // Check if the post has already been liked
+    if (post.likes.some((like) => like.user.toString() === userId.toString())) {
+      console.log("Post already liked");
+      throw new HttpException(400, 'Post already liked');
+    }
+    //safe user id to likes array
+    post.likes.unshift({user: userId});
+    await post.save();
+    return post.likes;
+  }
+
+  public async dislikePost(userId, postId) {
+    const post = await this.posts.findById(postId);
+    // Check if the post has already been liked
+    if (!post.likes.some((like) => like.user.toString() === userId.toString())) { 
+      throw new HttpException(400, 'Post not liked yet');
+    }
+    //remove like from likes array
+    post.likes = post.likes.filter(
+      ({ user }) => user.toString() !== userId.toString()
+    );
+    await post.save();
+    return post.likes;
   }
 
   public async deletePost(postId: String, userId: String): Promise<Post> {

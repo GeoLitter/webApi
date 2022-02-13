@@ -4,19 +4,33 @@ import { Post } from '../interfaces/posts.interface';
 const postSchema = new Schema({
   user: {
     type: Schema.Types.ObjectId,
-    ref: 'users'
+    ref: 'user'
   }, 
-  text: {
+  profile: {
+    type: Schema.Types.ObjectId,
+    ref: 'profile'
+  },
+  name: {
+    type: String,
+    required: true,
+  }, 
+  description: {
     type: String,
     required: true
   },
-  name: {
-    type: String
-  }, 
   postImage: {
     type: String,
     required: true
   },
+  lat: {
+    type: String,
+    required: true,
+  },
+  long: {
+    type: String,
+    required: true,
+  },
+  // todo: get avatar from profile
   avatar: {
     type: String
   },
@@ -64,6 +78,6 @@ const postSchema = new Schema({
   }
 });
 
-const userModel = model<Post & Document>('Post', postSchema);
+const postModel = model<Post & Document>('post', postSchema);
 
-export default userModel;
+export default postModel;

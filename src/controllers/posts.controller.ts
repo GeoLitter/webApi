@@ -1,4 +1,5 @@
 import { NextFunction, Request, Response } from 'express'; 
+import { validationResult } from 'express-validator';
 import { RequestWithUser } from '../interfaces/auth.interface';
 import { Post } from '../interfaces/posts.interface';
 import PostService from '../services/posts.service';
@@ -15,16 +16,35 @@ class PostsController {
     }
   };
 
+  public getPostById = async (req: Request, res: Response, next: NextFunction) => {
+    const postId = req.params.id;
+    try {
+      const post: Post = await this.postService.findPostById(postId)
+      return res.status(200).json({
+        data: post, message: "Post Found"
+      })
+    } catch (error) {
+      next(error);
+    }
+  }
+
   public createPost = async (req: RequestWithUser, res: Response, next: NextFunction) => { 
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
     const post: Post = {
-      text: req.body.text,
       name: req.body.name,
+      description: req.body.description,
       lat: req.body.lat,
       long: req.body.long,
       postImage: req.body.postImage,
       avatar: req.body.avatar,
       tags: [req.body.tags[0]],
-      user: req.user._id
+      user: req.user._id,
+      profile: req.body.profile,
+      likes: []
     };
     
     try {
@@ -32,6 +52,33 @@ class PostsController {
       res.status(200).json({data: createPostData, message: 'post created'});
     } catch (error) {
       next(error);
+    }
+  }
+
+  public likePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
+    const postId = req.params.id;
+    const userId = req.user._id; 
+    try {
+      const likedPost = await this.postService.likePost(userId, postId);
+      res.status(200).json({
+        data: likedPost, message: "Post is liked"
+      })
+    } catch (error) { 
+      next(error)
+    }
+  }
+
+
+  public unlikePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
+    const postId = req.params.id;
+    const userId = req.user._id; 
+    try {
+      const dislikedPost = await this.postService.dislikePost(userId, postId);
+      res.status(200).json({
+        data: dislikedPost, message: "Post is disliked"
+      })
+    } catch (error) { 
+      next(error)
     }
   }
 
