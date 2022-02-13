@@ -10,17 +10,27 @@ const postSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'profile'
   },
-  text: {
+  name: {
+    type: String,
+    required: true,
+  }, 
+  description: {
     type: String,
     required: true
   },
-  name: {
-    type: String
-  }, 
   postImage: {
     type: String,
     required: true
   },
+  lat: {
+    type: String,
+    required: true,
+  },
+  long: {
+    type: String,
+    required: true,
+  },
+  // todo: get avatar from profile
   avatar: {
     type: String
   },

@@ -1,5 +1,5 @@
-import { profile } from 'console';
 import { NextFunction, Request, Response } from 'express'; 
+import { validationResult } from 'express-validator';
 import { RequestWithUser } from '../interfaces/auth.interface';
 import { Post } from '../interfaces/posts.interface';
 import PostService from '../services/posts.service';
@@ -17,9 +17,14 @@ class PostsController {
   };
 
   public createPost = async (req: RequestWithUser, res: Response, next: NextFunction) => { 
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
     const post: Post = {
-      text: req.body.text,
       name: req.body.name,
+      description: req.body.description,
       lat: req.body.lat,
       long: req.body.long,
       postImage: req.body.postImage,
@@ -35,6 +40,19 @@ class PostsController {
     } catch (error) {
       next(error);
     }
+  }
+
+  public likePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
+   return res.status(200).json({
+     "message": `Liked Post ${req.params.id}`
+   });
+  }
+
+
+  public unlikePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
+    return res.status(200).json({
+      "message": `DisLiked Post ${req.params.id}`
+    });
   }
 
   public deletePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
