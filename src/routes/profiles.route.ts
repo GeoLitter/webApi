@@ -3,8 +3,7 @@ import ProfilesController from '../controllers/profiles.controller';
 import Route from '../interfaces/routes.interface';
 import authMiddleware from '../middlewares/auth.middleware';
 import { check, oneOf } from 'express-validator';
-// import validationMiddleware from '../middlewares/validation.middleware'; 
-import { profileValidaton } from '../middlewares/profilevalidation.middleware';
+// import validationMiddleware from '../middlewares/validation.middleware';  
 
 class ProfilesRoute implements Route {
   public path = '/profiles';

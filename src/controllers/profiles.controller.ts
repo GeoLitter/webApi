@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express'; 
 import { Profile } from '../interfaces/profile.interface'; 
 import profileService from '../services/profiles.service';
-import { check, validationResult } from 'express-validator';
+import { validationResult } from 'express-validator';
 import normalizeUrl from 'normalize-url';
 import { RequestWithUser } from '../interfaces/auth.interface';
 
