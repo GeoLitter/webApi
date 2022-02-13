@@ -32,6 +32,20 @@ class PostsService {
     return post.likes;
   }
 
+  public async dislikePost(userId, postId) {
+    const post = await this.posts.findById(postId);
+    // Check if the post has already been liked
+    if (!post.likes.some((like) => like.user.toString() === userId.toString())) { 
+      throw new HttpException(400, 'Post not liked yet');
+    }
+    //remove like from likes array
+    post.likes = post.likes.filter(
+      ({ user }) => user.toString() !== userId.toString()
+    );
+    await post.save();
+    return post.likes;
+  }
+
   public async deletePost(postId: String, userId: String): Promise<Post> {
     // Todo: Fix bug to only delete authorsized posts
     const findPostById: Post = await this.posts.findById(postId);    

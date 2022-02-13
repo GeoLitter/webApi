@@ -58,9 +58,16 @@ class PostsController {
 
 
   public unlikePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
-    return res.status(200).json({
-      "message": `DisLiked Post ${req.params.id}`
-    });
+    const postId = req.params.id;
+    const userId = req.user._id; 
+    try {
+      const dislikedPost = await this.postService.dislikePost(userId, postId);
+      res.status(200).json({
+        data: dislikedPost, message: "Post is disliked"
+      })
+    } catch (error) { 
+      next(error)
+    }
   }
 
   public deletePost = async (req:RequestWithUser, res: Response, next: NextFunction) => {
