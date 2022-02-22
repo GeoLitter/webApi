@@ -12,7 +12,7 @@ class PostsService {
   }
 
   public async findPostById(postId: string): Promise<Post> {
-    const post: Post = await this.posts.findById(postId)
+    const post: Post = await this.posts.findById(postId).populate('profile', ['bio', 'location', 'handle']);
     if(!post) throw new HttpException(400, "No Post Found");
     return post;
   }
