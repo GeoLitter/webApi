@@ -15,7 +15,7 @@ class PostsRoute implements Route {
 
   private initializeRoutes() {
     this.router.get(`${this.path}`, authMiddleware, this.postsController.getPosts);
-    this.router.get(`${this.path}/:id`, this.postsController.getPostById);
+    this.router.get(`${this.path}/:id`, authMiddleware, this.postsController.getPostById);
     this.router.post(`${this.path}`, 
     check('name', 'Please provide a name').notEmpty(),
     check('description', 'Please provide a description').notEmpty(),
