@@ -57,6 +57,9 @@ class App {
   private initializeMiddlewares() {
     if (this.env === 'production') {
       this.app.use(morgan('combined', { stream }));
+      this.app.use(cors({ origin: 'https://ecocrypt.org', credentials: true }));
+    } else if(this.env === 'staging') {
+      this.app.use(morgan('combined', { stream }));
       this.app.use(cors({ origin: 'https://staging.ecocrypt.org', credentials: true }));
     } else if (this.env === 'development') {
       this.app.use(morgan('dev', { stream }));
