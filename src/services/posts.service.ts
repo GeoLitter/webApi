@@ -2,6 +2,7 @@ import { Post } from '../interfaces/posts.interface';
 import postModel from '../models/posts.model'; 
 import HttpException from '../exceptions/HttpException';
 import { isEmpty } from '../utils/util';
+import { Comment } from '../interfaces/comment.interface';
 
 class PostsService {
   public posts = postModel;
@@ -60,6 +61,13 @@ class PostsService {
     //if user matches delete post
     const deletePostById: Post = await this.posts.findByIdAndDelete(findPostById);
     return deletePostById; 
+  }
+
+  public async createComment(postId: string, comment: Comment) { 
+    const post = await this.posts.findById(postId);
+    post.comments.unshift(comment);
+    await post.save();
+    return post.comments;
   }
 }
 

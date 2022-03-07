@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from 'express'; 
 import { validationResult } from 'express-validator';
 import { RequestWithUser } from '../interfaces/auth.interface';
+import { Comment } from '../interfaces/comment.interface';
 import { Post } from '../interfaces/posts.interface';
 import PostService from '../services/posts.service';
 
@@ -43,7 +44,8 @@ class PostsController {
       tags: [req.body.tags[0]],
       user: req.user._id,
       profile: req.body.profile,
-      likes: []
+      likes: [],
+      comments: []
     };
     
     try {
@@ -90,6 +92,29 @@ class PostsController {
       res.status(200).json({ data: deletePostById, message: 'deleted' });
     } catch (error) { 
       next(error);
+    }
+  }
+
+  public createComment = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+    try {
+      const postId = req.params.id;
+      const userId = req.user._id; 
+
+      const newComment: Comment = { 
+        text: req.body.text,
+        name: req.body.name,
+        avatar: req.body.avatar,
+        user: req.user._id
+      };
+      const comment = await this.postService.createComment(postId, newComment);
+      res.status(200).json({data: comment, message: 'Comment created Successfully'})
+    } catch (err) {
+      console.error(err.message);
+      res.status(500).send('Server Error');
     }
   }
 }

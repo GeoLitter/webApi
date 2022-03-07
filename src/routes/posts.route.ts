@@ -29,6 +29,9 @@ class PostsRoute implements Route {
     this.router.put(`${this.path}/like/:id`, authMiddleware, this.postsController.likePost);
     this.router.put(`${this.path}/unlike/:id`, authMiddleware, this.postsController.unlikePost);
     this.router.delete(`${this.path}/:id`, authMiddleware, this.postsController.deletePost);
+    this.router.post(`${this.path}/comment/:id`, 
+    check('text', 'Text is required').notEmpty(),
+    authMiddleware, this.postsController.createComment);
   }
 }
 

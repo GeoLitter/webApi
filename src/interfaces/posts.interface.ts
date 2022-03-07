@@ -1,3 +1,4 @@
+import { Comment } from "./comment.interface";
 import { Tag } from "./tags.interface";
 import { User } from "./users.interface";
 
@@ -12,6 +13,7 @@ export interface Post {
   tags: Array<Tag>;
   profile: string; 
   likes: Array<Liked>
+  comments: Array<Comment>
 }
 
 interface Liked {
