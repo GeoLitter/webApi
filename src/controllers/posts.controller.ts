@@ -29,11 +29,10 @@ class PostsController {
   }
 
   public createPost = async (req: RequestWithUser, res: Response, next: NextFunction) => { 
-    const errors = validationResult(req);
+    const errors = validationResult(req.body);
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
-
     const post: Post = {
       name: req.body.name,
       description: req.body.description,
@@ -48,8 +47,9 @@ class PostsController {
     };
     
     try {
-      const createPostData: Post = await this.postService.createPost({...post});
-      res.status(200).json({data: createPostData, message: 'post created'});
+      // const createPostData: Post = await this.postService.createPost({...post});
+      // res.status(200).json({data: createPostData, message: 'post created'});
+      res.status(200).json({data: post, message: "Got data"})
     } catch (error) {
       next(error);
     }
