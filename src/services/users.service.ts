@@ -1,6 +1,7 @@
 import bcrypt from 'bcrypt';
 import { CreateUserDto } from '../dtos/users.dto';
 import HttpException from '../exceptions/HttpException'; 
+import { Profile } from '../interfaces/profile.interface';
 import { User } from '../interfaces/users.interface'; 
 import userModel from '../models/users.model';
 import { isEmpty } from '../utils/util';
@@ -9,7 +10,7 @@ class UserService {
   public users = userModel; 
 
   public async findAllUser(): Promise<User[]> {
-    const users: User[] = await this.users.find({}, ['name', 'avatar', 'email']);
+    const users: User[] = await this.users.find({}, ['name', 'avatar', 'email']).populate('profile');
     return users;
   }
 
@@ -39,6 +40,12 @@ class UserService {
     if (!updateUserById) throw new HttpException(409, "You're not user");
 
     return updateUserById;
+  }
+  // Todo: assign only one profile to user
+  public async addProfileToUser(userId: string, userData:User, profileId: string): Promise<User> {
+    if(isEmpty(profileId)) throw new HttpException(400, "No Profile Id Provided");
+    // const updateUserById: User = await this.users.findByIdAndUpdate(userId, {...userData, profile: profileId});
+    return  
   }
 
   public async deleteUserData(userId: string): Promise<User> {
