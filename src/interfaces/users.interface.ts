@@ -1,6 +1,11 @@
 export interface User {
   _id: string;
-  user: string;
+  name: string;
   email: string;
   password: string;
+}
+
+export interface UserBasic { 
+  name: string;
+  email: string; 
 }

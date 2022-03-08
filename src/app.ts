@@ -57,7 +57,7 @@ class App {
   private initializeMiddlewares() {
     if (this.env === 'production') {
       this.app.use(morgan('combined', { stream }));
-      this.app.use(cors({ origin: 'your.domain.com', credentials: true }));
+      this.app.use(cors({ origin: ['https://staging.ecocrypt.org', 'https://ecocrypt.org', 'https://polar-atoll-65466.herokuapp.com/', 'https://ecocrypt-web-api.herokuapp.com/'], credentials: true }));
     } else if (this.env === 'development') {
       this.app.use(morgan('dev', { stream }));
       this.app.use(cors({ origin: true, credentials: true }));
@@ -66,8 +66,8 @@ class App {
     this.app.use(hpp());
     this.app.use(helmet());
     this.app.use(compression());
-    this.app.use(express.json());
-    this.app.use(express.urlencoded({ extended: true }));
+    this.app.use(express.json({limit: '5mb'}));
+    this.app.use(express.urlencoded({limit:'5mb', extended: true }));
     this.app.use(cookieParser());
   }
 

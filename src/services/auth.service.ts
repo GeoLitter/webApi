@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 import { CreateUserDto } from '../dtos/users.dto';
 import HttpException from '../exceptions/HttpException';
 import { DataStoredInToken, RefreshToken, TokenData } from '../interfaces/auth.interface';
-import { User } from '../interfaces/users.interface';
+import { User, UserBasic } from '../interfaces/users.interface';
 import userModel from '../models/users.model';
 import { isEmpty } from '../utils/util';
 
@@ -22,7 +22,7 @@ class AuthService {
     return createUserData;
   }
 
-  public async login(userData: CreateUserDto): Promise<{ cookie: string, findUser: User, tokenData: TokenData, refreshToken: RefreshToken}> {
+  public async login(userData: CreateUserDto): Promise<{ cookie: string, user: UserBasic, tokenData: TokenData, refreshToken: RefreshToken}> {
     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
 
     const findUser: User = await this.users.findOne({ email: userData.email });
@@ -35,7 +35,12 @@ class AuthService {
     const refreshToken = this.createRefreshToken(findUser);
     const cookie = this.createCookie(tokenData);
 
-    return { cookie, findUser, tokenData, refreshToken };
+    const user: UserBasic = {
+      name: findUser.name,
+      email: findUser.email,
+    }
+
+    return { cookie, user, tokenData, refreshToken };
   }
 
   public async logout(userData: User): Promise<User> {
