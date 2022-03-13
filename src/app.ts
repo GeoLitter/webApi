@@ -57,7 +57,7 @@ class App {
   private initializeMiddlewares() {
     if (this.env === 'production') {
       this.app.use(morgan('combined', { stream }));
-      this.app.use(cors({ origin: ['https://staging.ecocrypt.org', 'https://ecocrypt.org', 'http://api.ecocrypt.org'], credentials: true }));
+      this.app.use(cors({ origin: ['https://staging.ecocrypt.org', 'https://ecocrypt.org', 'http://api.ecocrypt.org', 'https://polar-atoll-65466.herokuapp.com'], credentials: true }));
     } else if (this.env === 'development') {
       this.app.use(morgan('dev', { stream }));
       this.app.use(cors({ origin: true, credentials: true }));
