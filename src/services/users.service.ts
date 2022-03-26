@@ -10,12 +10,12 @@ class UserService {
   public users = userModel; 
 
   public async findAllUser(): Promise<User[]> {
-    const users: User[] = await this.users.find({}, ['name', 'avatar', 'email']).populate('profile');
+    const users: User[] = await this.users.find({}, ['name', 'avatar', 'email']).populate('profile', 'handle');
     return users;
   }
 
   public async findUserById(userId: string): Promise<User> {
-    const findUser: User = await this.users.findOne({ _id: userId }, ['name', 'avatar', 'email']);
+    const findUser: User = await this.users.findOne({ _id: userId }, ['name', 'avatar', 'email']).populate('profile', 'handle');
     if (!findUser) throw new HttpException(409, "You're not user");
 
     return findUser;

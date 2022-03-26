@@ -8,4 +8,10 @@ export class CreateUserDto {
 
   @IsString()
   public password: string;
+  public profile: Profile;
+}
+
+interface Profile {
+  id: string,
+  profile: string
 }

@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcrypt'; 
 import jwt from 'jsonwebtoken';
 import { CreateUserDto } from '../dtos/users.dto';
 import HttpException from '../exceptions/HttpException';
@@ -25,9 +25,9 @@ class AuthService {
   public async login(userData: CreateUserDto): Promise<{ cookie: string, user: UserBasic, tokenData: TokenData, refreshToken: RefreshToken}> {
     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
 
-    const findUser: User = await this.users.findOne({ email: userData.email });
+    const findUser: User = await this.users.findOne({ email: userData.email }).populate('profile', 'handle');
     if (!findUser) throw new HttpException(409, `You're email ${userData.email} not found`);
-
+    console.log(findUser);
     const isPasswordMatching: boolean = await bcrypt.compare(userData.password, findUser.password);
     if (!isPasswordMatching) throw new HttpException(409, "You're password not matching");
 
@@ -37,7 +37,8 @@ class AuthService {
 
     const user: UserBasic = {
       name: findUser.name,
-      email: findUser.email,
+      email: findUser.email,  
+      profile: findUser.profile
     }
 
     return { cookie, user, tokenData, refreshToken };
