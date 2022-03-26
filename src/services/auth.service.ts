@@ -22,7 +22,7 @@ class AuthService {
     return createUserData;
   }
 
-  public async login(userData: CreateUserDto): Promise<{ cookie: string, user: UserBasic, tokenData: TokenData, refreshToken: RefreshToken}> {
+  public async login(userData: CreateUserDto): Promise<{ cookie: string, refreshCookie: string, user: UserBasic, tokenData: TokenData, refreshToken: RefreshToken}> {
     if (isEmpty(userData)) throw new HttpException(400, "You're not userData");
 
     const findUser: User = await this.users.findOne({ email: userData.email }).populate('profile', 'handle');
@@ -34,6 +34,7 @@ class AuthService {
     const tokenData = this.createToken(findUser);
     const refreshToken = this.createRefreshToken(findUser);
     const cookie = this.createCookie(tokenData);
+    const refreshCookie = this.createRefreshCookie(refreshToken.token);
 
     const user: UserBasic = {
       name: findUser.name,
@@ -41,7 +42,7 @@ class AuthService {
       profile: findUser.profile
     }
 
-    return { cookie, user, tokenData, refreshToken };
+    return { cookie, refreshCookie, user, tokenData, refreshToken };
   }
 
   public async logout(userData: User): Promise<User> {
@@ -80,6 +81,10 @@ class AuthService {
 
   public createCookie(tokenData: TokenData): string {
     return `Authorization=${tokenData.token}; HttpOnly; Max-Age=${tokenData.expiresIn}; SameSite=None; Secure`;
+  }
+
+  public createRefreshCookie(token: string): string {
+    return `refreshtoken=${token}; HttpOnly; Max-Age=4000; SameSite=None; Secure`;
   }
 }
 
