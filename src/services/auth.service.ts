@@ -56,12 +56,12 @@ class AuthService {
     return findUser;
   }
 
-  public async refreshToken(refreshToken: string): Promise<TokenData> {
+  public async refreshToken(refreshToken: string) {
     const secret: string = process.env.REFRESH_TOKEN; 
-    const data: TokenData = jwt.verify(refreshToken, secret, async (error, user:User ):Promise<TokenData> => { 
+    const data = jwt.verify(refreshToken, secret, async (error, user:User ):Promise<TokenData> => { 
       if(error) throw new HttpException(401, "Not a valid refreshToken");
       if(!error) return this.createToken(user);
-    });  
+    });   
     return data;
   }
 

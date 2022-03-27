@@ -19,6 +19,10 @@ describe('Testing AuthController', () => {
         name: 'username',
         email: 'test@email.com',
         password: 'q1w2e3r4!',
+        profile: {
+          profile: '',
+          id: ''
+        }
       };
 
       const authRoute = new AuthRoute();
@@ -40,6 +44,10 @@ describe('Testing AuthController', () => {
         name: "username",
         email: 'test@email.com',
         password: 'q1w2e3r4!',
+        profile: {
+          profile: '',
+          id: ''
+        }
       };
       process.env.JWT_SECRET = 'jwt_secret';
 
@@ -95,6 +103,10 @@ describe('Testing AuthService', () => {
           name: 'username',
           email: 'test1@email.com',
           password: 'q1w2e3r4!',
+          profile: {
+            profile: '',
+            id: ''
+          }
         };
 
         const authService = new AuthService();
@@ -111,6 +123,10 @@ describe('Testing AuthService', () => {
           name: 'username',
           email: 'test@email.com',
           password: 'q1w2e3r4!',
+          profile: {
+            profile: '',
+            id: ''
+          }
         };
         process.env.JWT_SECRET = 'jwt_secret';
 
