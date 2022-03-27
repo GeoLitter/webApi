@@ -23,7 +23,7 @@ class AuthController {
 
     try {
       const { cookie, refreshCookie, user, tokenData, refreshToken } = await this.authService.login(userData);
-      res.setHeader('Set-Cookie', [cookie, refreshCookie]);  
+      res.setHeader('Set-Cookie', [cookie, refreshCookie]);   
       res.status(200).json({ data: user, message: 'login', token: tokenData, refreshToken: refreshToken });
     } catch (error) {
       next(error);
@@ -43,11 +43,12 @@ class AuthController {
   };
 
   public refreshToken = async (req: Request , res: Response, next: NextFunction) => {
-      const refreshToken = req.body.token;
-      console.log("refresh token", refreshToken);
+      const refreshToken = req.body.token; 
       try {
         //get new tokens from authservice
         const token = await this.authService.refreshToken(refreshToken); 
+        console.log(token.token) 
+        res.setHeader('Set-Cookie', [`Authorization=${token.token}; HttpOnly; Max-Age=${token.expiresIn}; SameSite=None; Secure`]);
         res.status(200).json({token: token, message: 'token from refresh token'})
       } catch (error) {
         next(error);
