@@ -62,7 +62,7 @@ class AuthService {
       if(error) throw new HttpException(401, "Not a valid refreshToken");
       if(!error) return this.createToken(user);
     });   
-    return data;
+    return data as unknown as TokenData;
   }
 
   public createToken(user: User): TokenData {
