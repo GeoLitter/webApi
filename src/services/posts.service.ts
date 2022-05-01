@@ -8,12 +8,12 @@ class PostsService {
   public posts = postModel;
 
   public async findAllPosts(): Promise<Post[]> {
-    const posts: Post[] = await this.posts.find().sort({ date: -1 }).populate('profile', ['bio', 'location', 'handle']); 
+    const posts: Post[] = await this.posts.find().sort({ date: -1 }).populate('profile', ['bio', 'location', 'handle', 'profileImg']); 
     return posts;
   }
 
   public async findPostById(postId: string): Promise<Post> {
-    const post: Post = await this.posts.findById(postId).populate('profile', ['bio', 'location', 'handle']);
+    const post: Post = await this.posts.findById(postId).populate('profile', ['bio', 'location', 'handle', 'profileImg']);
     if(!post) throw new HttpException(400, "No Post Found");
     return post;
   }

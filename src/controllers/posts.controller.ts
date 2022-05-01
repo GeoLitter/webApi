@@ -49,8 +49,8 @@ class PostsController {
     };
     
     try {
-      // const createPostData: Post = await this.postService.createPost({...post});
-      // res.status(200).json({data: createPostData, message: 'post created'});
+      const createPostData: Post = await this.postService.createPost({...post});
+      res.status(200).json({data: createPostData, message: 'post created'});
       res.status(200).json({data: post, message: "Got data"})
     } catch (error) {
       next(error);
